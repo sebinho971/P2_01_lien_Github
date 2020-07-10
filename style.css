@@ -1,0 +1,63 @@
+#bloc_page
+{
+width: 900px;
+margin: auto;
+border: solid 3px #efe711 ;
+}
+#bloc_page
+{
+    display: flex;
+    flex-direction: row;
+}
+#gauche
+{
+    
+    width: 35%;
+    background-color: darkorange;
+}
+#droite
+{
+height: auto;
+width: 65%;
+}
+#logo img
+{
+    width: 150px;
+	height: 150px;
+	border-radius: 75px;
+	vertical-align: top;
+	margin-top: 15px;
+}
+#logo
+{
+    text-align: center;
+}
+#gauche h2
+{
+    text-align: center;
+    background-color: black;
+    color: chocolate;
+    text-transform: uppercase;
+}
+#gauche p
+{
+    text-align: left;
+margin-left: 20px;
+margin-right: 20px;
+
+}
+#image ul
+{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    margin-right: 60px;
+}    
+#image li
+{
+ margin: auto;
+}
+
+
+
+
