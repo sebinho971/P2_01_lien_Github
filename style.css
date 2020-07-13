@@ -7,6 +7,10 @@ word-wrap: break-word;
     display: flex;
     flex-direction: row;
 }
+#bloc_page h1, h2, h3
+{
+    text-transform: uppercase;
+}
 #gauche
 {
      width: 35%;
@@ -24,16 +28,45 @@ margin-right: 1cm;
 .bac
 {
     display: flex;
-    flex-direction: row;           
+    flex-direction: row;                  
     }
-.bac p
-{
-margin-left: 3cm;
-}
+
+
 .bac li
 {
     white-space: nowrap; 
+    list-style: none;
+    word-wrap: break-word;
+    }
+    .open
+    {
+        margin-left: 2cm;
+    }
+.bts
+{
+    display: flex;
+    flex-direction: row;
 }
+.bts li
+{
+white-space: nowrap;
+list-style: none;
+word-wrap: break-word;
+}
+.master
+{
+    display: flex;
+    flex-direction: row;
+    }
+ .licence
+ {
+     margin-left: 5cm;
+ }   
+ .master li
+ {
+     list-style: none;
+ }
+
 #logo img
 {
     width: 150px;
