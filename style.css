@@ -88,10 +88,12 @@ word-wrap: break-word;
  .licence
  {
      margin-left: 5cm;
+     color: black;
  }   
  .master
  {
      list-style: none;
+     color: black;
  }
  
  {
@@ -140,6 +142,7 @@ margin-right: 20px;
 .open
 {
     list-style: none;
+    color: black;
 }
 .web
 {
@@ -151,11 +154,14 @@ margin-right: 20px;
     }
     #droite ul
 {
-   list-style: none;
+color: #efe711;
 }
-#droite ul ::before
+.black
 {
-    content: "\2022";
-    float: left;
-        color: #efe711;
+    
+        color: black
+}
+.diplome
+{
+    color: black;
 }
