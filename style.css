@@ -2,7 +2,7 @@
 {
 width: 900px;
 margin: auto;
-border: solid 3px #efe711 ;
+border: solid 3px #FFFF00 ;
 word-wrap: break-word;
     display: flex;
     flex-direction: row;
@@ -14,7 +14,7 @@ word-wrap: break-word;
 #gauche
 {
      width: 35%;
-    background-color: #efe711;
+    background-color: #FFFF00;
 }
 #droite
 {
@@ -35,6 +35,7 @@ aside{
 .titre
 {
     margin-left: 1cm;
+    color: #212121;
 }
 .open
 {
@@ -42,7 +43,7 @@ aside{
     }
 span.angole
 {
-    color: #efe711;
+    color: #FFFF00;
 }
 span.gras
 {
@@ -53,7 +54,7 @@ span.gras
 {
     width: 100%;
     height: 0.1em;
-    background-color: #efe711;
+    background-color: #FFFF00;
 }
 .bac
 {
@@ -89,13 +90,13 @@ word-wrap: break-word;
     }
  .licence
  {
-     margin-left: 5cm;
-     color: black;
+     margin-left: 3cm;
+     color: #212121;
  }   
  .master
  {
      list-style: none;
-     color: black;
+     color: #212121;
  }
  
  {
@@ -119,8 +120,8 @@ word-wrap: break-word;
 #gauche h2
 {
     text-align: center;
-    background-color: black;
-    color: #efe711;
+    background-color: #212121;
+    color: #FFFF00;
     text-transform: uppercase;
 }
 #gauche p
@@ -144,11 +145,11 @@ margin-right: 20px;
 .open
 {
     list-style: none;
-    color: black;
+    color: #212121;
 }
 .web
 {
-    text-decoration: underline #efe711 ;
+    text-decoration: underline #FFFF00 ;
     }
     .free
     {
@@ -156,14 +157,23 @@ margin-right: 20px;
     }
     #droite ul
 {
-color: #efe711;
+color: #FFFF00;
 }
 .black
 {
     
-        color: black
+        color: #212121
 }
 .diplome
 {
-    color: black;
+    color: #212121;
+}
+.fa, .fa a
+{
+    color: #FFFF00;
+}
+.fa.fa-futbol-o,.fa.fa-code,.fa.fa-spotify
+{
+    color: #212121;
+    font-size: 30px;
 }
