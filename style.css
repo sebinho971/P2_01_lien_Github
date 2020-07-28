@@ -29,7 +29,9 @@ margin-right: 1cm;
 {
     margin-top: 2cm;
 }
-
+aside{
+    display: flex;
+}
 .titre
 {
     margin-left: 1cm;
