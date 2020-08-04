@@ -59,29 +59,49 @@ span.gras
 .bac
 {
     display: flex;
-    flex-direction: row;                  
-    }
-
-
-.bac li
-{
+                    
+    
     white-space: nowrap; 
         word-wrap: break-word;
+        
     }
     .open
     {
         margin-left: 2cm;
     }
-.bts
+
+.bts ::before
 {
-    display: flex;
-    flex-direction: row;
-}
-.bts li
+    content: "";
+    display: block;
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    background-color: #FFFF00;
+    margin-right: 10px;
+    align-items: center;
+    }
+    .bac ::before
+{
+    content: "";
+    display: block;
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    background-color: #FFFF00;
+    margin-right: 10px;
+    align-items: center;
+    }
+.bts 
 {
 white-space: nowrap;
 
 word-wrap: break-word;
+}
+.list
+{
+    display: flex;
+    flex-direction: row;
 }
 .master
 {
