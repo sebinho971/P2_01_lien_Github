@@ -58,10 +58,8 @@ span.gras
 }
 .bac
 {
-    display: flex;
-                    
-    
-    white-space: nowrap; 
+    display: flex;  
+ white-space: nowrap; 
         word-wrap: break-word;
         
     }
@@ -79,7 +77,8 @@ span.gras
     border-radius: 50%;
     background-color: #FFFF00;
     margin-right: 10px;
-    align-items: center;
+    margin-top: 15px;
+    
     }
     .bac ::before
 {
@@ -90,18 +89,19 @@ span.gras
     border-radius: 50%;
     background-color: #FFFF00;
     margin-right: 10px;
-    align-items: center;
-    }
+    margin-top: 15PX; 
+
+        }
 .bts 
 {
 white-space: nowrap;
-
 word-wrap: break-word;
 }
 .list
 {
     display: flex;
     flex-direction: row;
+    
 }
 .master
 {
