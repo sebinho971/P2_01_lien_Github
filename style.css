@@ -121,17 +121,20 @@ word-wrap: break-word;
  
 
 
-#logo img
+figure img
 {
-    width: 150px;
-	height: 150px;
-    border-radius: 75px;
-    vertical-align: top;
-	margin-top: 15px;
+    width: 60%;
+    
+	height: auto;
+    border-radius: 50%; 
+    max-width: 100%; 
+    
 }
-#logo
+figure
 {
     text-align: center;
+   
+
 }
 
 #gauche h2
@@ -144,7 +147,7 @@ word-wrap: break-word;
 #gauche p
 {
     text-align: left;
-margin-left: 20px;
+margin-left: 5%;
 margin-right: 20px;
 
 }
@@ -193,4 +196,33 @@ color: #FFFF00;
 {
     color: #212121;
     font-size: 30px;
+}
+@media screen and (max-width: 1024px)
+{
+#bloc_page
+{
+    width: auto;
+    flex-direction: column-reverse;
+}
+#gauche
+{
+    display: flex;
+    flex-direction: row;
+text-align: center;
+background-color: #FFFF00;
+word-wrap: break-word;
+width: auto;
+height: auto;
+}
+#paragraphe1, #loisir
+{
+    display: none;
+}
+#paragraphe
+{
+    display: flex;
+    flex-direction: row;
+}
+
+
 }
