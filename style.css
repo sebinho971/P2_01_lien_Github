@@ -6,10 +6,12 @@ border: solid 3px #FFFF00 ;
 word-wrap: break-word;
     display: flex;
     flex-direction: row;
+    font-size: 100%;
 }
 #bloc_page h1, h2, h3
 {
     text-transform: uppercase;
+    
 }
 #gauche
 {
@@ -196,12 +198,13 @@ color: #FFFF00;
     color: #212121;
     font-size: 30px;
 }
-@media screen and (max-width: 1024px)
+@media screen and (max-width: 1000px)
 {
 #bloc_page
 {
     width: auto;
     flex-direction: column-reverse;
+    font-size: 80%;
 }
 #gauche
 {
@@ -222,6 +225,19 @@ height: auto;
     display: flex;
     flex-direction: row;
 }
+}
+@media screen and (max-width: 400px)
+{
+    bloc_page
+    {
+    font-size:50px;
+    wight:auto;
+    }
+    figure
+     {
+         display: none;
+     }
+    {
 
-
+    }    
 }
