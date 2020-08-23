@@ -22,7 +22,7 @@ word-wrap: break-word;
     margin-bottom: 1em;
     
 }
-#gauche
+.gauche
 {
      width: 35%;
     background-color: #FFB300;
@@ -152,14 +152,14 @@ figure
 
 }
 
-#gauche h2
+.gauche h2
 {
     text-align: center;
     background-color: #212121;
     color: #FFB300;
     text-transform: uppercase;
 }
-#gauche p
+.gauche p
 {
     text-align: left;
 margin-left: 5%;
@@ -172,6 +172,8 @@ margin-right: 20px;
     flex-direction: row;
     list-style: none;
     margin-right: 60px;
+    
+    
 }    
 #image li
 {
@@ -213,7 +215,11 @@ color: #FFB300;
     color: #212121;
     font-size: 3em;
 }
-
+.font
+{
+    display: flex;
+    flex-direction: column;
+}
 @media screen and (max-width: 1000px)
 {
 #bloc_page
@@ -222,7 +228,7 @@ color: #FFB300;
     flex-direction: column-reverse;
     font-size: 80%;
 }
-#gauche
+.gauche
 {
     display: flex;
     flex-direction: row;
