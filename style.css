@@ -208,14 +208,14 @@ color: #FFB300;
 .fa, .fa a
 {
     color: #FFB300;
-    text-rendering: auto;
-    
+    text-rendering: unset;
+        
 }
 .fa.fa-futbol-o,.fa.fa-code,.fa.fa-spotify
 {
     color: #212121;
     font-size: 3em;
-    text-rendering: auto;
+    
 }
 .font
 {
