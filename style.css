@@ -233,7 +233,7 @@ color: #FFB300;
 .gauche
 {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
 text-align: center;
 background-color: #FFB300;
 word-wrap: break-word;
@@ -247,6 +247,8 @@ height: auto;
 #paragraphe
 {
     display: flex;
-    flex-direction: row;
-}
+    flex-direction: column;
+    width: auto;
+    height: auto;
+    }
 }
