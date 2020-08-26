@@ -226,79 +226,36 @@ color: #FFB300;
     flex-direction: column;
 }
 @media(min-width: 768px) and (max-width: 1388px)
-
 {
-
- 
-
 #bloc_page
-
 {
-
             width :100% ;
-            padding :0px ;
-         
-
+            padding :0px ;  
 }
-
- 
-
 .gauche
-
 {
-
             width :35% ;           
-
 }
-
- 
-
 .droite
-
 {
-
             width :65% ;
-
 }
-
- 
-
 }
 @media(max-width: 767px)
-
 { 
-
- 
-
 #bloc_page
-
 {
-
             width :100% ;
-
             padding :0px ;
             display: flex;
             flex-direction: column-reverse;
-
 }
-
- 
-
 .gauche
-
 {
-
             width :100% ;
-
 }
-
- 
-
 .droite
-
 {
-
             width :100% ;
-
 }
 }
