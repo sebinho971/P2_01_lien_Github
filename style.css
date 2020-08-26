@@ -6,10 +6,9 @@ body
 {
     width: 100%;
 }
-
 #bloc_page
 {
-width: 80%;
+width: 60%;
 margin: auto;
 border: solid 3px #FFB300 ;
 word-wrap: break-word;
@@ -22,8 +21,7 @@ word-wrap: break-word;
     text-transform: uppercase;
     font-size: 1.6em;
     margin-top: 1em;
-    margin-bottom: 1em;
-    
+    margin-bottom: 1em; 
 }
 .gauche
 {
@@ -82,13 +80,11 @@ span.gras
  white-space: nowrap; 
         word-wrap: break-word;
         margin-top: 1em;
-        
-    }
+            }
     .open
     {
         margin-left: 2cm;
     }
-
 .bts ::before
 {
     content: "";
@@ -98,8 +94,7 @@ span.gras
     border-radius: 50%;
     background-color: #FFB300;
     margin-right: 10px;
-    margin-top: 15px;
-    
+    margin-top: 15px;  
     }
     .bac ::before
 {
@@ -111,7 +106,6 @@ span.gras
     background-color: #FFB300;
     margin-right: 10px;
     margin-top: 15PX; 
-
         }
 .bts 
 {
@@ -121,8 +115,7 @@ word-wrap: break-word;
 .list
 {
     display: flex;
-    flex-direction: row;
-    
+    flex-direction: row;   
 }
 .master
 {
@@ -146,15 +139,11 @@ word-wrap: break-word;
     border-radius: 50%; 
     max-width: 100%; 
     margin-top: 2em;
-        
-}
+        }
 figure
 {
     text-align: center;
-    
-
-}
-
+    }
 .gauche h2
 {
     text-align: center;
@@ -167,16 +156,13 @@ figure
     text-align: left;
 margin-left: 5%;
 margin-right: 20px;
-
 }
 #image ul
 {
     display: flex;
     flex-direction: row;
     list-style: none;
-    margin-right: 60px;
-    
-    
+    margin-right: 60px;    
 }    
 #image li
 {
@@ -200,8 +186,7 @@ margin-right: 20px;
 color: #FFB300;
 }
 .black
-{
-    
+{    
         color: #212121
 }
 .diplome
@@ -210,15 +195,12 @@ color: #FFB300;
 }
 .fa, .fa a
 {
-    color: #FFB300;
-    
-        
+    color: #FFB300;        
 }
 .fa.fa-futbol-o,.fa.fa-code,.fa.fa-spotify
 {
     color: #212121;
     font-size: 3em;
-    
 }
 .font
 {
@@ -258,4 +240,8 @@ color: #FFB300;
 {
             width :100% ;
 }
+}
+@viewport{
+width: device-width;
+zoom: 1;
 }
