@@ -31,11 +31,16 @@ word-wrap: break-word;
 #droite
 {
 height: auto;
-width: 65%;
+
 display: flex;
 flex-direction: column;
 margin-left: 25px;
 margin-right: 1cm;
+}
+@media(min-width: 1200px) {
+    #droite {
+        width: 65%;
+    }
 }
 .titre_principal
 {
@@ -124,9 +129,13 @@ word-wrap: break-word;
     }
  .licence
  {
-     margin-left: 3cm;
      color: #212121;
- }   
+ }  
+ @media(min-width: 1200px) {
+     .licence {
+         margin-left: 3cm;
+     }
+ } 
  .master
  {
      list-style: none;
@@ -244,4 +253,18 @@ color: #FFB300;
 @viewport{
 width: device-width;
 zoom: 1;
+}
+@media (max-widht:380px)
+{
+    #bloc_page
+{
+            width :80% ;
+            padding :0px ;
+             display: flex;
+            flex-direction: column-reverse;
+}
+.gauche
+{
+            width :80% ;
+}
 }
